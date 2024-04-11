@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Rolagem de Dados</title>
+</head>
+<body>
+  <h1>Simulador de Rolagem de Dados</h1>
+  <p>Selecione o dado e digite um valor:</p>
+  <select id="dado">
+    <option value="d100">d100 (100 lados)</option>
+    <option value="d20">d20 (20 lados)</option>
+    <option value="d12">d12 (12 lados)</option>
+    <option value="d10">d10 (10 lados)</option>
+    <option value="d8">d8 (8 lados)</option>
+    <option value="d6">d6 (6 lados)</option>
+    <option value="d4">d4 (4 lados)</option>
+  </select>
+  <input type="number" id="valor">
+  <button id="rolar">Rolar</button>
+  <ul id="historico"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
